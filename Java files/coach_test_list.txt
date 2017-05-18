@@ -1,0 +1,8 @@
+Coach001 password001 rightsID02 Peter Parker spider@man.com false
+Coach002 password002 rightsID02 Clark Kent super@man.com false
+Coach003 password003 rightsID02 Barbara Gordon bat@girl.com true
+Coach004 password004 rightsID02 Bruce Wayne bat@man.com false
+Coach005 password005 rightsID02 Selina Kyle cat@woman.com true
+Coach006 password006 rightsID02 Kendra Sanders hawk@girl.com true
+
+MemberID password rightsID fornavn efternavn email isFemale
