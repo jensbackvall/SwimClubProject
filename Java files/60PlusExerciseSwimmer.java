@@ -4,4 +4,8 @@ public class 60PlusExerciseSwimmer extends SeniorExerciseSwimmer {
 
     }
 
+    public double getFee() {
+        return super.getFee() * 0.75;
+    }
+
 }

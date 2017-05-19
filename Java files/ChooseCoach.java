@@ -3,6 +3,8 @@ import java.io.*;
 
 public class ChooseCoach {
 
+    public ChooseCoach() {
+
     try {
         //indhent data fra en fil med aktive trænere
         Scanner input = new Scanner(new File("coach_test_list.txt"));
@@ -16,11 +18,13 @@ public class ChooseCoach {
         //opdel ArrayList coaches i enkelte ArrayLists for hver træner, split ved mellemrum for at få celleindhold
 
         //vælg træner
-    }}
+    }
     catch (FileNotFoundException e) {
         e.printStackTrace();
     }
     //test indhold af ArrayList coaches, for at se at den læser det ordentligt
     System.out.println(coaches);
+
+    }
 
 }

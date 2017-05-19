@@ -10,54 +10,98 @@ public class Member {
     private boolean isTrainer;
     private boolean isActive;
     private double fee;
-    private int rightsID;
+    private boolean hasPayed;
 
-    public Member() {
-
+    public Member(String firstName, String surName, String email, String birthDate, String memberID,
+                  String password, boolean isFemale, boolean isTrainer, boolean isActive, double fee,) {
     }
 
     public String getFirstName() {
         return firstName;
     }
 
+    public String setFirstName(String newFirstName) {
+        firstName = newFirstname;
+    }
+
     public String getSurName() {
         return surName;
+    }
+
+    public String setSurName(String newSurName) {
+        surName = newSurname;
     }
 
     public String getEmail() {
         return email;
     }
 
+    public String setEmail(String newEmail) {
+        email = newEmail;
+    }
+
     public String getBirthDate() {
         return birthDate;
+    }
+
+    public String setBirthDate(String newBirthDate) {
+        birthDate = newBirthDate;
     }
 
     public String getMemberID() {
         return memberID;
     }
 
+    public String setMemberID(String newMemberID) {
+        memberID = newMemberID;
+    }
+
     public String getPassword() {
         return password;
+    }
+
+    public String setPassword(String newPassword) {
+        password = newPassword;
     }
 
     public boolean getIsFemale() {
         return isFemale;
     }
 
+    public boolean setIsFemale(boolean newIsFemale) {
+        isFemale = newIsFemale;
+    }
+
     public boolean getIsTrainer() {
         return isTrainer;
+    }
+
+    public boolean setIsTrainer(boolean newIsTrainer) {
+        isTrainer = newIsTrainer;
     }
 
     public boolean getIsActive() {
         return isActive;
     }
 
+    public boolean setIsActive(boolean newIsActive) {
+        isActive = newIsActive;
+    }
+
     public double getFee() {
         return 1600;
     }
 
-    public int getRightsID() {
-        return rightsID;
+    public double setFee(double newFee) {
+        fee = newFee;
+    }
+
+    public boolean getHasPayed() {
+        return hasPayed;
+    }
+
+    public boolean setHasPayed(boolean newHasPayed) {
+        hasPayed = newHasPayed;
     }
 
 }
