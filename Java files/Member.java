@@ -8,12 +8,11 @@ public class Member {
     private String password;
     private boolean isFemale;
     private boolean isTrainer;
-    private boolean isActive;
     private double fee;
     private boolean hasPayed;
 
     public Member(String firstName, String surName, String email, String birthDate, String memberID,
-                  String password, boolean isFemale, boolean isTrainer, boolean isActive, double fee,) {
+                  String password, boolean isFemale, boolean isTrainer, double fee,) {
     }
 
     public String getFirstName() {
@@ -78,14 +77,6 @@ public class Member {
 
     public boolean setIsTrainer(boolean newIsTrainer) {
         isTrainer = newIsTrainer;
-    }
-
-    public boolean getIsActive() {
-        return isActive;
-    }
-
-    public boolean setIsActive(boolean newIsActive) {
-        isActive = newIsActive;
     }
 
     public double getFee() {
