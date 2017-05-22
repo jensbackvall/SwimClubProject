@@ -23,8 +23,8 @@ public class EliteSwimmer extends Member {
     private int coachChoice3;
 
     public EliteSwimmer(String firstName, String surName, String email, String birthDate, String memberID,
-                        String password, boolean isFemale, boolean isTrainer, double fee,) {
-        super(firstName, surName, email, birthDate, memberID, password, isFemale, isTrainer, fee);
+                        String password, boolean isFemale, double fee) {
+        super(firstName, surName, email, birthDate, memberID, password, isFemale, fee);
     }
 
     public boolean getButterfly() {

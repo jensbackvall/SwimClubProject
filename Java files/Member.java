@@ -7,12 +7,11 @@ public class Member {
     private String memberID;
     private String password;
     private boolean isFemale;
-    private boolean isTrainer;
     private double fee;
     private boolean hasPayed;
 
     public Member(String firstName, String surName, String email, String birthDate, String memberID,
-                  String password, boolean isFemale, boolean isTrainer, double fee,) {
+                  String password, boolean isFemale, double fee) {
     }
 
     public String getFirstName() {
@@ -69,14 +68,6 @@ public class Member {
 
     public boolean setIsFemale(boolean newIsFemale) {
         isFemale = newIsFemale;
-    }
-
-    public boolean getIsTrainer() {
-        return isTrainer;
-    }
-
-    public boolean setIsTrainer(boolean newIsTrainer) {
-        isTrainer = newIsTrainer;
     }
 
     public double getFee() {
